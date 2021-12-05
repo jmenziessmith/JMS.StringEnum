@@ -6,7 +6,7 @@
 
         public MyEnum EnumValue { get; set; }
 
-        public bool IsEnumValueKnown { get; set; }
+        public bool? IsEnumValueKnown { get; set; }
     }
 
 }
