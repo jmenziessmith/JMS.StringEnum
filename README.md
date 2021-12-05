@@ -9,7 +9,7 @@ Allows a defined set of enum values to be defined and verified, but also support
 ```csharp
 public class MyEnum : StringEnum<MyEnum>
 {
-    public const string Foo = "Foo";
+    public static MyEnum Foo => "Foo";
     public const string Bar = "Bar";
 
     public MyEnum(string value)

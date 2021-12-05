@@ -11,9 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMS.StringEnum.Serializatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMS.StringEnum.Serialization.NewtonsoftJson.Tests.Unit", "test\JMS.StringEnum.Serialization.NewtonsoftJson.Tests.Unit\JMS.StringEnum.Serialization.NewtonsoftJson.Tests.Unit.csproj", "{87E4A8D0-AB33-424A-9185-8D2E786BD30B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMS.StringEnum.OpenApi.Swashbuckle", "src\JMS.StringEnum.OpenApi.Swashbuckle\JMS.StringEnum.OpenApi.Swashbuckle.csproj", "{172122BE-98D1-4EC1-8126-B15E78BED381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMS.StringEnum.OpenApi.Swashbuckle", "src\JMS.StringEnum.OpenApi.Swashbuckle\JMS.StringEnum.OpenApi.Swashbuckle.csproj", "{172122BE-98D1-4EC1-8126-B15E78BED381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.StringEnum.WebApi", "example\Example.StringEnum.WebApi\Example.StringEnum.WebApi.csproj", "{CC3426C0-44F3-4689-9CE3-81878141F8C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.StringEnum.WebApi", "example\Example.StringEnum.WebApi\Example.StringEnum.WebApi.csproj", "{CC3426C0-44F3-4689-9CE3-81878141F8C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_solutionItems", "_solutionItems", "{8EAAD3A8-52A5-4652-A9D1-3BE494F26451}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

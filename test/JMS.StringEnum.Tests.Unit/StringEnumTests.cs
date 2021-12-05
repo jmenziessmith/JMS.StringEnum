@@ -11,7 +11,7 @@ namespace JMS.StringEnum.Tests.Unit
         [Fact]
         public void AllValues_ShouldReturnFullList()
         {
-            var expected = new List<string> { TestEnum.One, TestEnum.Two, TestEnum.Three };
+            var expected = new List<string> { TestEnum.One, TestEnum.Two, TestEnum.Three, TestEnum.Four };
 
             var result = TestEnum.AllValues;
 

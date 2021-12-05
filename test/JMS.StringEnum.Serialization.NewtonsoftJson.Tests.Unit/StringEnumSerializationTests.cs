@@ -77,7 +77,7 @@ namespace JMS.StringEnum.Serialization.NewtonsoftJson.Tests.Unit
                 {
                     { TestEnum.One, "1" },
                     { TestEnum.Two, "2" },
-                    { json.Contains("UNKNOWN") ? "UNKNOWN" : TestEnum.Three, "3" },
+                    { json.Contains("UNKNOWN") ? "UNKNOWN" : (string)TestEnum.Three, "3" },
                 },
             };
             var deserialized = JsonConvert.DeserializeObject<TestModel>(json, jsonSettings);

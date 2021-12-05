@@ -14,6 +14,7 @@
 
             var enumValue1 = new TestEnum(stringValue);
 
+            enumValue1.IsKnownValue().Should().BeTrue();
             enumValue1.ToString().Should().Be("Number3");
         }
 
@@ -24,6 +25,7 @@
 
             TestEnum enumValue2 = stringValue;
 
+            enumValue2.IsKnownValue().Should().BeTrue();
             enumValue2.ToString().Should().Be("Number3");
         }
 
@@ -34,6 +36,7 @@
 
             var enumValue3 = (TestEnum)stringValue;
 
+            enumValue3.IsKnownValue().Should().BeTrue();
             enumValue3.ToString().Should().Be("Number3");
         }
 

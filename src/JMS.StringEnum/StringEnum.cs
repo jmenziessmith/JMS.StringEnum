@@ -10,13 +10,13 @@
     {
         private static readonly IEnumerable<string> AllFieldValues = typeof(T)
             .GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy)
-            .Where(x => x.IsLiteral)
+            .Where(x => x.FieldType == typeof(string) || x.FieldType == typeof(T))
             .Select(x => x.GetValue(null).ToString())
             .ToList();
 
         private static readonly IEnumerable<string> AllPropertyValues = typeof(T)
             .GetProperties(BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy)
-            .Where(x => x.PropertyType == typeof(string) || x.PropertyType.BaseType?.IsGenericTypeDefinition == true)
+            .Where(x => x.PropertyType == typeof(string) || x.PropertyType == typeof(T))
             .Select(x => x.GetValue(null).ToString())
             .ToList();
 

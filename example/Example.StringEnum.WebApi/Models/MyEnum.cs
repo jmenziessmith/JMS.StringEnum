@@ -1,11 +1,10 @@
 using JMS.StringEnum;
-using System;
 
 namespace Example.StringEnum.WebApi
 {
     public class MyEnum : StringEnum<MyEnum>
     {
-        public const string Foo = "Foo";
+        public static MyEnum Foo => "Foo";
 
         public const string Bar = "Bar";
 
