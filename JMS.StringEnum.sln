@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMS.StringEnum", "src\JMS.StringEnum\JMS.StringEnum.csproj", "{58EFF023-B89B-40CD-8B60-C3D9BF5EDADF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMS.StringEnum.Tests.Unit", "test\JMS.StringEnum.Tests.Unit\JMS.StringEnum.Tests.Unit.csproj", "{D27BDA32-9A1A-4EBD-AFE9-6A7B8568B97B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMS.StringEnum.Serialization.NewtonsoftJson", "src\JMS.StringEnum.Serialization.NewtonsoftJson\JMS.StringEnum.Serialization.NewtonsoftJson.csproj", "{AD535D93-3613-49CC-8FE0-FF72168DCAF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMS.StringEnum.Serialization.NewtonsoftJson.Tests.Unit", "test\JMS.StringEnum.Serialization.NewtonsoftJson.Tests.Unit\JMS.StringEnum.Serialization.NewtonsoftJson.Tests.Unit.csproj", "{87E4A8D0-AB33-424A-9185-8D2E786BD30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMS.StringEnum.OpenApi.Swashbuckle", "src\JMS.StringEnum.OpenApi.Swashbuckle\JMS.StringEnum.OpenApi.Swashbuckle.csproj", "{172122BE-98D1-4EC1-8126-B15E78BED381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.StringEnum.WebApi", "example\Example.StringEnum.WebApi\Example.StringEnum.WebApi.csproj", "{CC3426C0-44F3-4689-9CE3-81878141F8C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58EFF023-B89B-40CD-8B60-C3D9BF5EDADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EFF023-B89B-40CD-8B60-C3D9BF5EDADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EFF023-B89B-40CD-8B60-C3D9BF5EDADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EFF023-B89B-40CD-8B60-C3D9BF5EDADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27BDA32-9A1A-4EBD-AFE9-6A7B8568B97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27BDA32-9A1A-4EBD-AFE9-6A7B8568B97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27BDA32-9A1A-4EBD-AFE9-6A7B8568B97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27BDA32-9A1A-4EBD-AFE9-6A7B8568B97B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD535D93-3613-49CC-8FE0-FF72168DCAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD535D93-3613-49CC-8FE0-FF72168DCAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD535D93-3613-49CC-8FE0-FF72168DCAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD535D93-3613-49CC-8FE0-FF72168DCAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E4A8D0-AB33-424A-9185-8D2E786BD30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E4A8D0-AB33-424A-9185-8D2E786BD30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E4A8D0-AB33-424A-9185-8D2E786BD30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E4A8D0-AB33-424A-9185-8D2E786BD30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172122BE-98D1-4EC1-8126-B15E78BED381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172122BE-98D1-4EC1-8126-B15E78BED381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172122BE-98D1-4EC1-8126-B15E78BED381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172122BE-98D1-4EC1-8126-B15E78BED381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3426C0-44F3-4689-9CE3-81878141F8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3426C0-44F3-4689-9CE3-81878141F8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3426C0-44F3-4689-9CE3-81878141F8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3426C0-44F3-4689-9CE3-81878141F8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {472B942B-B075-4B9D-B3FF-E06DFD0F4EA6}
+	EndGlobalSection
+EndGlobal
